@@ -2,37 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 100px auto;
+}
+h1{
+  text-align: left;
+}
+table{
+ width: 100%;
+}
+thead tr th{
+  text-align: left;
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+}
+tbody tr{
+  
+}
+tbody tr td{
+  text-align: left;
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.referal .title{
+  font-weight: 700;
+}
+.referal .date{
+  font-weight: 100;
+  color: gray;
+  padding: 5px 0;
+}
+.referal .count{
+  font-weight: 700;
+  display: inline-block;
+}
+.referal .curency{
+  font-weight: 700;
+  display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.advocate .advocate-email{
+  font-weight: 700;
+  padding: 0 0 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.friend .friend-email{
+  font-weight: 700;
+  padding: 0 0 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.status{
+  font-weight: 700;
+  padding: 0 0 5px;
+}
+.true{
+  font-weight: 100;
+  color: gray;
+  padding: 5px 0;
+}
+.false{
+  font-weight: 100;
+  color: red;
+  padding: 5px 0;
 }
